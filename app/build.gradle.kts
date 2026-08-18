@@ -13,15 +13,15 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.blissless.subsplease"
+    namespace = "com.blissless.subsplease.anime.torrent"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.blissless.subsplease"
+        applicationId = "com.blissless.subsplease.anime.torrent"
         minSdk = 26
         targetSdk = 37
-        versionCode = 2
-        versionName = "1.0.1"
+        versionCode = 3
+        versionName = "1.0.2"
     }
 
     signingConfigs {
